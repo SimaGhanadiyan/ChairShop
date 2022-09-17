@@ -105,6 +105,17 @@ h3 {
   font-size: 14px;
   padding: 8px 12px;
 }
+
+.chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
+
+li {
+  list-style: none;
+}
+
 /* END Section4 */
 
 footer {
