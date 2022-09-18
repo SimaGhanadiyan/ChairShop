@@ -38,6 +38,7 @@ h1 {
   text-transform: uppercase;
   font: weight 500;
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -88,6 +89,7 @@ h2 {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 30px;
 }
 /* END Section3 */
 
@@ -116,8 +118,26 @@ li {
   list-style: none;
 }
 
+.chair-box {
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.chair-box img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.chair {
+  padding: 20px;
+}
+
 /* END Section4 */
 
 footer {
   color: #495057;
+}
+
+img {
+  border-radius: 12px;
 }
