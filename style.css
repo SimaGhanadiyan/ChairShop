@@ -9,7 +9,7 @@ GREY COLOR:#343A40,#099268*/
 }
 body {
   font-family: "Inter", sans-serif;
-  font-size: 26px;
+  /* font-size: 26px; */
   color: #343a40;
   border-bottom: 8px solid #087f5b;
 }
@@ -28,11 +28,13 @@ h2 {
   font-size: 36px;
   letter-spacing: -0.5px;
 }
+
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
+
 img {
   border-radius: 12px;
 }
@@ -90,7 +92,7 @@ header {
 /* END Section1 */
 
 /* Section2 */
-.feature.title {
+.feature-title {
   margin-bottom: 16px;
   font-size: 20px;
 }
@@ -104,7 +106,7 @@ header {
   stroke: #087f5b;
   width: 32px;
   height: 32px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 /* END Section2 */
 
@@ -178,6 +180,7 @@ h3 {
 .chair-details {
   list-style: none;
   margin-bottom: 48px;
+  /* font-size: 16px; */
 }
 .chair-details li {
   display: flex;
